@@ -2,7 +2,7 @@
 
 1. Download the latest version of Python, either directly or through the Anaconda distribution.
 
-2. Download Docker for Desktop [here] (https://www.docker.com/products/docker-desktop). Installation guides for various OS's can be found [here] (https://docs.docker.com/desktop/)
+2. Download Docker for Desktop [here](https://www.docker.com/products/docker-desktop). Installation guides for various OS's can be found [here](https://docs.docker.com/desktop/)
 
 3. Ensure Docker is running in the background.
 
