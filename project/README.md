@@ -18,4 +18,4 @@ Identify the CONTAINER ID of the container you wish to stop running, then enter 
 
 Finally run the following command to destroy the container:
 
-* rm CONTAINER ID
+* docker rm CONTAINER ID
