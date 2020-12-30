@@ -3,7 +3,7 @@ import flask as fl
 # numpy for numerical work.
 import numpy as np
 
-from model import powerPredictor
+from predict import powerPredictor
 
 # Create a new web app.
 app = fl.Flask(__name__)
@@ -19,4 +19,4 @@ def predictPower(speed):
   return powerPredictor.predictPower(speed)
 
 
-#app.run(debug=True)
+app.run(debug=True)

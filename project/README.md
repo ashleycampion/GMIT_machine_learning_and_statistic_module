@@ -14,7 +14,7 @@
 
 > * docker run -d -p 5000:5000 predict-app
 
-6. Then to access the containerized application, go to http://1.0.0.127:5000 in a web browser.
+6. Then to access the containerized application, go to http://127.0.0.1:5000/ in a web browser.
 
 7. To stop the container running, first list the containers currently running with the following command:
 
