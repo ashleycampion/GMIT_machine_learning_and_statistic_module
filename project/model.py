@@ -20,7 +20,7 @@ class PowerPredictor:
 
     def __init__(self):
         df = pd.read_csv('https://raw.githubusercontent.com/ianmcloughlin/2020A-machstat-project/master/dataset/powerproduction.csv')
-        newDF = df.loc[(df['speed']<16) | (df['power']!=0)]
+        newDF = df.loc[(df['speed']<10) | (df['power']!=0)]
         columns = newDF.columns
         # Create a neural network with one neuron.
         model = kr.models.Sequential()
